@@ -6,7 +6,7 @@ function SocialButton({ icon, url }) {
     <>
       <a href={url} target="_blank">
         <button
-          className="border-black rounded-circle m-3"
+          className="border-black rounded-circle m-1"
           style={{ width: "70px", height: "70px" }}
           type="button"
         >

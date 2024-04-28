@@ -4,12 +4,12 @@ import { useState } from "react";
 import { Form } from "react-bootstrap";
 
 const respuestas = [
-  ", veo un futuro lleno de fortuna y felicidad",
+  ", veo un futuro lleno de fortuna y felicidad.",
   ", esta semana debes tener cuidado! veo peligro en tu futuro.",
-  ", tu numero de la suerte este mes es el 21, no lo olvides!",
-  ", te llegarán emocionantes noticias cuando menos lo esperes",
-  ", es un buen momento para preocuparte de tu salud",
-  ", el trabajo no lo es todo, veo un merecido descanso en tu futuro",
+  ", tu numero de la suerte este mes es el 21, no lo olvides!.",
+  ", te llegarán emocionantes noticias cuando menos lo esperes.",
+  ", es un buen momento para preocuparte de tu salud.",
+  ", el trabajo no lo es todo, veo un merecido descanso en tu futuro.",
 ];
 
 const getRandomRespuestas = () => {
@@ -48,36 +48,35 @@ function Formulario({
           name +
             " " +
             email +
-            ", te veo en un asiento con una persona muy pequeña... un bebé quizás?"
+            ", te veo en un asiento con una persona muy pequeña... un bebé quizás?."
         );
         color = `${colorExito}`;
-      }
-
-      else if (name == "Carlos" || name == "carlos") {
+      } else if (name == "Carlos" || name == "carlos") {
         alert.push(
           name +
             " " +
             email +
-            ", alguien te revelará un gran secreto, debes estar atento!"
+            ", alguien te revelará un gran secreto, debes estar atento!."
         );
         color = `${colorExito}`;
-      }
-
-      else if (name == "Jonathan" || name == "jonathan") {
+      } else if (name == "Jonathan" || name == "jonathan") {
         alert.push(
           name +
             " " +
             email +
-            ", veo a alguien llamadote aunque no es por tu nombre... ¿Qué está diciendo?... frio? pio? rio? Tio?"
+            ", veo a alguien llamadote aunque no es por tu nombre... ¿Qué está diciendo?... frio? pio? rio? Tio?."
+        );
+        color = `${colorExito}`;
+      } else if (name == "Manuel" || name == "manuel") {
+        alert.push(
+          name +
+            " " +
+            email +
+            ", es un buen momento para conectar con tu familia, quizás debas visitar a tu nieto/a."
         );
         color = `${colorExito}`;
       } else {
-        alert.push(
-          name +
-            " " +
-            email +" "+
-            respuestas
-        );
+        alert.push(name + " " + email + respuestas);
         color = `${colorExito}`;
       }
     }
@@ -106,7 +105,7 @@ function Formulario({
         />
 
         <button type="submit" className="btn btn-primary">
-          Registrarse
+          Enviar
         </button>
       </Form>
     </>

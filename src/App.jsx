@@ -5,7 +5,7 @@ import Registro from "./components/Registro";
 
 function App() {
   return (
-    <div className="bg-white p-5 rounded-4">
+    <div className="principal bg-white p-3 rounded-4">
       <Registro />
     </div>
   );
