@@ -2,4 +2,4 @@
 
 Realizado de forma Individual.
 
-Deploy: https://ramiro-sepulveda.github.io/desafio-estados/
+Deploy: https://ramiro-sepulveda.github.io/Prueba-random
